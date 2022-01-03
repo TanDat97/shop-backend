@@ -1,0 +1,7 @@
+export const SUCCESS = 'SUCCESS';
+export const NOT_FOUND = 'NOT_FOUND';
+export const NOT_HAVE_PERMISSION = 'NOT_HAVE_PERMISSION';
+export const NOT_AUTHORIZE = 'NOT_AUTHORIZE';
+export const BAD_INPUT_DATA = 'BAD_INPUT_DATA';
+export const SERVER_ERROR = 'SERVER_ERROR';
+export const INVALID_FORMAT = 'INVALID_FORMAT';

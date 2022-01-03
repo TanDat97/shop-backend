@@ -1,0 +1,12 @@
+{
+	"Not found": "%s not found",
+	"Page Not Found": "Page Not Found",
+	"Already in use": "%s already in use",
+	"Id not found": "Id not found",
+	"Validation exists": "Validation exists",
+	"Create success": "Create successfully",
+	"Update success": "Update successfully",
+	"Delete success": "Delete successfully",
+	"Created success": "Created successfully",
+	"Upload Success": "Upload Success"
+}

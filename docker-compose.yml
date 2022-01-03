@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  backend:
+    container_name: shop-backend
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile-dev
+    environment:
+    volumes:
+      - ./server:/usr/src/app/server
+      - ./package.json:/usr/src/app/package.json
+    command: yarn dev
+    ports:
+      - 5000:5000

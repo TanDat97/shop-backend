@@ -142,7 +142,7 @@ export class ProductUsecase extends CoreUsecase {
       const params = [product_id];
       const res = await this.repo.executeQuery(queryText, params);
       if (res[0].affectedRows === 1 && res[0].changedRows === 1) {
-        return res.message;
+        return null;
       }
       throw new AppError('Product invalid', HttpStatus.BAD_REQUEST);
     } catch (err) {

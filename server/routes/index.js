@@ -35,7 +35,7 @@ export default app => {
       UpdateProductCheck.validator.bind(UpdateProductCheck),
       productHandler.update.bind(productHandler)
     );
-    product.delete('/delete/:id', productHandler.delete.bind(productHandler));
+    product.delete('/delete/:product_id', productHandler.delete.bind(productHandler));
   });
 
   app.group('/category', category => {

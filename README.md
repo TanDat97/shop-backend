@@ -14,11 +14,10 @@ I have prepare script to create table that project needed and insert data sample
 npm install
 
 # prepare env
-create .env file inside "server" folder, copy content from .env.example and replace with your database information
+create ".env" file inside "server" folder. copy content from ".env.example", replace with your database information and paste to .env file you had created.
 
 # serve with hot reload at localhost:5000
 npm start
-
 ```
 
 # Link online
